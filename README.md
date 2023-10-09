@@ -11,23 +11,24 @@ This project is a Dockerized Python application based on the official Python 3.1
 
 ## Clone the Repository
 To get started, clone this repository to your local machine using the following command:
-- (https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification)
 
-git clone https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/
+- git clone https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/
 
 
+## Setup Project
 **Build the Docker Container**
 Navigate to the project directory that you just cloned and build the Docker container using the provided Dockerfile:
 
-
-- cd your-project
-- docker build -t your-app-name .
-
+```bat
+cd your-project
+docker build -t shelf .
+```
 
 **Run the Docker Container**
 After successfully building the Docker container, you can run it using the following command:
-
+```bat
 - docker run -p 80:80 your-app-name
+```
 This command maps port 80 of your local machine to port 80 of the Docker container, allowing you to access the application.
 
 Access the Application
