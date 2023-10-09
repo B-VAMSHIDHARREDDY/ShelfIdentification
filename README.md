@@ -13,7 +13,6 @@ This project is a Dockerized Python application based on the official Python 3.1
 To get started, clone this repository to your local machine using the following command:
 - (https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification)
 
-```bash
 git clone https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/
 
 
