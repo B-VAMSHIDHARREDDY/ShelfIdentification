@@ -41,14 +41,33 @@ Once the Docker container is running, you can access your application in a web b
 ```
 You should see your application running.
 
+## Page view
+
+![image](https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/assets/87815097/f6ff50ec-7392-4c72-a515-ff6cffb7b522)
+
+
+I have given the JSON inputs as an example, please paste them in the content box and click the "post" button.
 ## Input examples:
+
+example-1
 ```bat
 {
     "layout": [ " ['G', 'G', 'M', 'M'],['G', 'G', 'M', 'M'],['B', 'B', 'N', 'N'],['B', 'B', 'N', 'N']" ]
 }
 ```
+![image](https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/assets/87815097/988ec6d5-be18-4bad-a30c-4c2393d1b446)
+
+example-2
 ```bat
 {
     "layout": [" ['G', 'M', 'N', 'B'],['G', 'M', 'N', 'B'],['G', 'M', 'N', 'B'],['G', 'M', 'N', 'B']"]
 }
 ```
+
+## Output Checking
+
+After clicking the 'Post' button, you will receive a response as output.
+![image](https://github.com/B-VAMSHIDHARREDDY/ShelfIdentification/assets/87815097/c5f58c8d-ef24-4538-b4ea-66d0415e685e)
+
+Refer to the image above for the output.
+
