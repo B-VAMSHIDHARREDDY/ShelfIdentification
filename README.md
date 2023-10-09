@@ -4,6 +4,14 @@
 
 This project is a Dockerized Python application based on the official Python 3.10-slim image. It runs a web server using Django to serve your application on port 80.
 
+**To use the API for shelf identification, follow these steps:**
+
+- Send a POST request to the /shelf-identification/ endpoint with a JSON payload containing your shelf layout.
+
+- The API will analyze the layout and return the identification results.
+
+- The results will include information about the shapes found in the layout and their positions.
+
 ## Prerequisites
 
 - [Docker] [https://docs.docker.com/get-docker/]
@@ -37,7 +45,7 @@ This command maps port 80 of your local machine to port 80 of the Docker contain
 ## Access the Application
 Once the Docker container is running, you can access your application in a web browser or make requests to it. Open a web browser and go to:
 ```bat
- http://localhost:80/
+ http://localhost:80/shelf-identification/
 ```
 You should see your application running.
 
